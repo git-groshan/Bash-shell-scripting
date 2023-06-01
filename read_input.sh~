@@ -1,0 +1,8 @@
+#!/bin/bash
+echo Enter a number: 
+read num
+echo Entered number is $num
+echo enter two number to get added
+read n1 n2
+echo Entered number is $n1 and $n2 and sum is $(($n1 + $n2))
+

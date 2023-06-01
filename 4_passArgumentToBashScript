@@ -1,0 +1,12 @@
+#!/bin/bash
+#script name is stored in $0 and other Command line argumnets are stored in $1 $2 ...respectively
+echo $0 $1 $2 
+echo   # simply print a new line 
+#storing CLA in an array using @
+args=("$@") #this only stored argu starting from $1 $1 in zero  based indexing
+echo ${args[0]} ${args[1]} ${args[2]}
+echo
+echo "printing using @ $@"
+echo "printing no of argu using # $#"
+
+
